@@ -113,6 +113,16 @@
             line-height: 1.7;
         }
 
+        .birthday-date {
+            font-size: clamp(0.9rem, 2vw, 1.1rem);
+            color: rgba(255, 255, 255, 0.8);
+            margin-top: -2rem;
+            opacity: 0;
+            animation: fadeInUp 1.5s ease 0.8s forwards;
+            font-weight: 300;
+            letter-spacing: 1px;
+        }
+        
         /* Love Letter Section */
         .love-letter {
             background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
@@ -688,6 +698,7 @@
     <!-- Landing Section -->
     <section id="home" class="landing">
         <h1>Happy Birthday My Love ❤️</h1>
+        <p class="birthday-date">2025/07/05</p>
         <img src="images/front.jpg" alt="Us Together" class="couple-img">
         <p class="personal-quote">"Every day with you is a gift, but today is extra special because it's your birthday.
             You make my world complete."</p>
